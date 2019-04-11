@@ -49,7 +49,7 @@ final class TransformViewModel: TransformViewModelType {
     
 }
 
-class SubjectViewModel: SubjectViewModelType {
+final class SubjectViewModel: SubjectViewModelType {
     
     var input: SubjectViewModel.Input
     var output: SubjectViewModel.Output
